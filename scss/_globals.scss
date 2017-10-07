@@ -1,0 +1,59 @@
+// _globals.scss
+
+// I. Colors
+// II. Typography
+
+// I. Colors
+$white: #FFFFFF;
+$darkblue: #27313E;
+$hotpink: #F1449F;
+$cyan: #50E1FA;
+$yellow: #FADF2C;
+$primary: $darkblue;
+$secondary: $yellow;
+$tertiary: $hotpink;
+
+// II. Typography
+//   a. Headers
+//   b. Paragraphs
+//   c. Links
+
+// a. Headers
+.logo {
+  font-size: 24px;
+  font-family: "Metropolis", sans-serif;
+  margin: 0;
+  display: inline-block;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: "Metropolis", sans-serif;
+    font-weight: bold;
+    line-height: 44px;
+    span {
+        font-family: "Fira Mono", monospace;
+        font-weight: normal;
+        line-height: 30px;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size: 16px;
+    }
+}
+
+// b. Paragraphs
+p {
+  font-size: 18px;
+  font-family: "Metropolis", sans-serif;
+  line-height: 28px;
+  font-weight: 100;
+}
+
+// c. Links
+a {
+  text-decoration: none;
+  color: inherit;
+  &:hover {
+    color: $secondary;
+  }
+}

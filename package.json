@@ -1,0 +1,12 @@
+{
+  "name": "gsumpster.com",
+  "version": "1.0.0",
+  "description": "Portfolio Website for gsumpster.com",
+  "main": "index.js",
+  "repository": "git@github.com:gsumpster/gsumpster.com.git",
+  "author": "George Sumpster <gsumpster@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hamburgers": "^0.9.1"
+  }
+}

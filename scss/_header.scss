@@ -1,0 +1,65 @@
+$hamburger-layer-width: 25px;
+$hamburger-layer-height: 3px;
+$hamburger-layer-border-radius: 0;
+$hamburger-layer-spacing: 4px;
+@import "../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+.header {
+    background-color: $darkblue;
+    padding: 20px 25px;
+    color: $white;
+    position: relative;
+    height: 660px;
+    .logo {
+        margin: 0;
+        opacity: 0.99;
+    }
+    h1 {
+        margin: 0.5em 0;
+    }
+    p {
+        width: 90%;
+    }
+    .bg-geometry {
+        position: absolute;
+        &:first-of-type {
+            top: -10px;
+            left: 43px;
+        }
+        &:nth-child(2) {
+            right: 0;
+            top: 35%;
+        }
+        &:last-of-type {
+            bottom: 0;
+            left: 0;
+        }
+    }
+    .hamburger {
+        padding: 13px 0;
+        float: right;
+        outline: none;
+        .hamburger-inner,
+        .hamburger-inner::before,
+        .hamburger-inner::after {
+            background-color: $white;
+        }
+        &:hover {
+            opacity: 1;
+            .hamburger-inner,
+            .hamburger-inner::before,
+            .hamburger-inner::after {
+                background-color: $yellow;
+            }
+        }
+    }
+    .is-active {
+        .hamburger-inner,
+        .hamburger-inner::before,
+        .hamburger-inner::after {
+            background-color: $yellow;
+        }
+    }
+    nav {
+        display: none;
+    }
+}
