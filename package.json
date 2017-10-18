@@ -8,5 +8,8 @@
   "license": "MIT",
   "dependencies": {
     "hamburgers": "^0.9.1"
+  },
+  "devDependencies": {
+    "csscomb": "^4.2.0"
   }
 }
