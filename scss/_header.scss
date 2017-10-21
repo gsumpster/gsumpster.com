@@ -13,7 +13,7 @@ body.nav-open {
 .header {
     position: relative;
 
-    height: 660px;
+    height: 610px;
     padding: 20px 25px;
 
     color: $white;
@@ -43,7 +43,7 @@ body.nav-open {
             right: 0;
         }
         &:last-of-type {
-            bottom: 0;
+            bottom: -3px;
             left: 0;
         }
     }
@@ -114,5 +114,23 @@ body.nav-open {
                 font-size: 24px;
             }
         }
+    }
+
+    &::after {
+      position: absolute;
+      z-index: -1;
+      right: 0;
+      bottom: 0;
+      left: 0;
+
+      display: block;
+
+      height: 50%;
+
+      content: '';
+      transform: skewY(-1.5deg);
+      transform-origin: 100%;
+
+      background: inherit;
     }
 }
