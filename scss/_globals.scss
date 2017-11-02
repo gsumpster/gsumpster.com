@@ -13,6 +13,10 @@ $primary: $darkblue;
 $secondary: $yellow;
 $tertiary: $hotpink;
 
+$project_pink: #f39aab;
+$project_green: #35ae94;
+$project_blue: #0b1742;
+
 // II. Typography
 //   a. Headers
 //   b. Paragraphs
@@ -42,6 +46,14 @@ h1 {
         font-weight: normal;
         line-height: 30px;
     }
+}
+
+h2 {
+  color: $white;
+
+  font-family: "Metropolis", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 // b. Paragraphs

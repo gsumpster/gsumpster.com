@@ -1,0 +1,59 @@
+.projects {
+  position: relative;
+  top: -220px;
+
+  padding: 0 25px;;
+  .project {
+    width: 100%;
+    height: 310px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+    color: $white;
+    font-family: "Metropolis", sans-serif;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+
+    &:first-of-type {
+      background-color: $project_blue;
+    }
+
+    &:nth-child(3) {
+      background-color: $project_pink;
+    }
+
+    &:last-of-type {
+      background-color: $project_green;
+    }
+
+    .project__image {
+      // box-shadow: 0px 0px 40px 0px rgba(6, 14, 42, 1);
+      img {
+        width: 100%;
+        height: 175px;
+      }
+    }
+
+    .project__details {
+      padding: 0 25px;
+
+      h4, a {
+        font-family: "Fira Mono", monospace;
+        margin-bottom: 0;
+        font-weight: 100;
+        text-transform: uppercase;
+        letter-spacing: 0.13em;
+        font-size: 12px;
+      }
+
+      h3 {
+        margin-top: 5px;
+        font-size: 24px;
+      }
+
+    }
+
+    p {
+      display: none;
+    }
+  }
+}
