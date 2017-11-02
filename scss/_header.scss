@@ -87,7 +87,9 @@ body.nav-open {
 
         background-color: $darkblue;
         background-image: url('/img/nav-mobile-bg.png');
+        background-size: cover;
         background-position: bottom;
+        z-index: 98;
 
         ul {
             display: flex;
