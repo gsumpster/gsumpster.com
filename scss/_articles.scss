@@ -1,0 +1,70 @@
+.articles {
+  padding: 0 25px;
+
+  h2 {
+    font-size: 30px;
+    color: $darkblue;
+    margin-bottom: 5px;
+  }
+
+  .article {
+    position: relative;
+    padding: 30px 0 35px;
+
+    time {
+      font-size: 12px;
+      font-family: "Fira Mono", monospace;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      margin: 5px 0 10px;
+      font-size: 24px;
+      color: $hotpink;
+      font-family: "Metropolis", sans-serif;
+      font-weight: 300;
+      line-height: 30px;
+    }
+
+    p {
+      margin: 0 0 15px;
+      font-size: 16px;
+      line-height: 28px;
+    }
+
+    a {
+      font-size: 14px;
+      font-size: 900;
+      letter-spacing: 2px;
+      font-family: "Fira Mono", monospace;
+      color: $hotpink;
+      text-transform: uppercase;
+
+      span {
+        font-size: 21px;
+        line-height: 0;
+        margin-left: 3px;
+        font-weight: 100;
+      }
+
+      &::after {
+        content: '\A';
+        width: 143px;
+        height: 2px;
+        margin-top: 4px;
+        background-color: $hotpink;
+        display: block;
+      }
+    }
+
+    &::after {
+      content: '\A';
+      position: absolute;
+      width: 100vw;
+      height: 1px;
+      background-color: #E8E8E8;
+      bottom: 0;
+      left: -35px;
+    }
+  }
+}
