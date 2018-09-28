@@ -28,7 +28,7 @@ body.nav-open {
         opacity: 0.99;
     }
     h1 {
-        margin: 0.5em 0;
+        margin: 0.75em 0 0.5em;
     }
     p {
         width: 90%;
@@ -130,7 +130,7 @@ body.nav-open {
       height: 10%;
 
       content: '';
-      transform: skewY(-1.5deg);
+      transform: skewY(-5deg);
       transform-origin: 100%;
 
       background: $white;
