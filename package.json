@@ -7,12 +7,15 @@
   "author": "George Sumpster <gsumpster@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "cz-cli": "^1.0.0",
     "gulp": "^3.9.1",
     "gulp-connect": "^5.0.0",
     "gulp-sass": "^3.1.0",
-    "hamburgers": "^0.9.1"
+    "hamburgers": "^0.9.1",
+    "npm": "^6.4.1"
   },
   "devDependencies": {
-    "csscomb": "^4.2.0"
+    "csscomb": "^4.2.0",
+    "rb-conventional-changelog": "^1.1.9"
   }
 }
