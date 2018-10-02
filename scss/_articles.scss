@@ -55,6 +55,15 @@
         background-color: $hotpink;
         display: block;
       }
+
+      &:hover {
+        cursor: pointer;
+        color: $yellow;
+
+        &::after {
+          background-color: $yellow;
+        }
+      }
     }
 
     &::after {
