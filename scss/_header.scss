@@ -13,7 +13,7 @@ body.nav-open {
 .header {
     position: relative;
 
-    height: 435px;
+    height: 415px;
     padding: 20px 25px;
 
     color: $white;
@@ -27,24 +27,38 @@ body.nav-open {
 
         opacity: 0.99;
     }
-    h1 {
-        margin: 0.75em 0 0.5em;
+    .title {
+        margin: .75em 0 0.6em;
+
+        // Metropolis's D has a slight kick to the right,
+        // this is a correction for that.
+        position: relative;
+        left: -2px;
+
+        line-height: 0.8;
+
+        span {
+          letter-spacing: 1.6px;
+          position: relative;
+          left: 2px;
+        }
     }
     p {
         width: 90%;
+        max-width: 250px;
     }
     .bg-geometry {
         position: absolute;
         &:first-of-type {
             top: -10px;
-            left: 43px;
+            left: 42px;
         }
         &:nth-child(2) {
-            top: 40%;
+            top: 50%;
             right: 0;
         }
         &:last-of-type {
-            bottom: -175px;
+            bottom: -185px;
             left: 0;
         }
     }
